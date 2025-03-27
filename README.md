@@ -163,11 +163,11 @@ python app.py
 ```
 
 ## References
-The code is mainly adapted from [M3D]](https://github.com/BAAI-DCAI/M3D).
+The code is mainly adapted from [M3D](https://github.com/BAAI-DCAI/M3D).
 
 
 ## Citations and Acknowledgements
-The code is only for research purposes. If you have any questions regarding how to use this code, feel free to contact Teng Zhang at zhangt@ufl.edu.
+The code is only for research purposes. If you have any questions regarding how to use this code, feel free to contact Yu Xin at yu.xin@ufl.edu.
 
 Kindly cite our paper as follows if you use our code or dataset.
 
