@@ -169,7 +169,7 @@ The code is mainly adapted from [M3D](https://github.com/BAAI-DCAI/M3D).
 ## Citations and Acknowledgements
 The code is only for research purposes. If you have any questions regarding how to use this code, feel free to contact Yu Xin at yu.xin@ufl.edu.
 
-Kindly cite our paper as follows if you use our code or dataset.
+Kindly cite the following papers if you use our code.
 
 ```bibtex
 @misc{xin2025med3dvlmefficientvisionlanguagemodel,
