@@ -172,6 +172,16 @@ The code is only for research purposes. If you have any questions regarding how 
 Kindly cite our paper as follows if you use our code or dataset.
 
 ```bibtex
+@misc{xin2025med3dvlmefficientvisionlanguagemodel,
+      title={Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis}, 
+      author={Yu Xin and Gorkem Can Ates and Kuang Gong and Wei Shao},
+      year={2025},
+      eprint={2503.20047},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2503.20047}, 
+}
+
 @article{ates2025dcformer,
   title={DCFormer: Efficient 3D Vision-Language Modeling with Decomposed Convolutions},
   author={Ates, Gorkem Can and Gong, Kuang and Shao, Wei},
