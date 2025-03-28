@@ -82,10 +82,6 @@ def main():
     )
     model = model.to(device=device)
 
-    if "Decomposed" in args.model_name_or_path or "DCFormer" in args.model_name_or_path:
-        vt_ckpt = torch.load(os.path.join(args.model_name_or_path, "vision_tower.bin"))
-        model.get_model().vision_tower.load_state_dict(vt_ckpt)
-
     test_dataset = VQADataset(
         args, tokenizer=tokenizer, close_ended=args.close_ended, mode="test"
     )

@@ -58,8 +58,6 @@ def main():
         device_map=device,
         trust_remote_code=True,
     )
-    vt_ckpt = torch.load(os.path.join(args.model_name_or_path, "vision_tower.bin"))
-    model.get_model().vision_tower.load_state_dict(vt_ckpt)
 
     proj_out_num = (
         model.get_model().config.proj_out_num

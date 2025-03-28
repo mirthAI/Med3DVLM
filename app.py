@@ -61,10 +61,6 @@ def load_model(model_name):
         trust_remote_code=True,
     ).to(device=device)
 
-    if "Decomposed" in current_model_path or "DCFormer" in current_model_path:
-        vt_ckpt = torch.load(os.path.join(current_model_path, "vision_tower.bin"))
-        model.get_model().vision_tower.load_state_dict(vt_ckpt)
-
     proj_out_num = (
         model.get_model().config.proj_out_num
         if hasattr(model.get_model().config, "proj_out_num")

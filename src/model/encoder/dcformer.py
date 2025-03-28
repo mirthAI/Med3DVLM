@@ -354,7 +354,7 @@ class ConvBlock(nn.Module):
         self.dwconv = DecompConv3D(oup, oup, kernel_size, groups=oup)
         self.mlp = MLP(oup, hidden_dim)
 
-        self.gamma = (
+        self.scale = (
             nn.Parameter(layer_scale_init_value * torch.ones((oup)), requires_grad=True)
             if layer_scale_init_value > 0
             else None
@@ -370,8 +370,8 @@ class ConvBlock(nn.Module):
 
         x = self.mlp(x)
 
-        if self.gamma is not None:
-            x = self.gamma * x
+        if self.scale is not None:
+            x = self.scale * x
         x = x.permute(0, 4, 1, 2, 3)  # (N, H, W, C) -> (N, C, H, W)
 
         x = input + self.drop_path(x)

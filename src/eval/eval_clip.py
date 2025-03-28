@@ -108,11 +108,6 @@ def main():
     model = AutoModel.from_pretrained(args.model_name_or_path, trust_remote_code=True)
     model = model.to(device=device)
 
-    vit_ckpt = torch.load(
-        os.path.join(args.model_name_or_path, "pretrained_ViT.bin"), map_location=device
-    )
-    model.vision_encoder.load_state_dict(vit_ckpt)
-
     results = {}
 
     for test_size in args.test_size:
