@@ -172,14 +172,11 @@ The code is only for research purposes. If you have any questions regarding how 
 Kindly cite the following papers if you use our code.
 
 ```bibtex
-@misc{xin2025med3dvlmefficientvisionlanguagemodel,
-      title={Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis}, 
-      author={Yu Xin and Gorkem Can Ates and Kuang Gong and Wei Shao},
-      year={2025},
-      eprint={2503.20047},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2503.20047}, 
+@article{xin2025med3dvlm,
+  title={Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis},
+  author={Xin, Yu and Ates, Gorkem Can and Gong, Kuang and Shao, Wei},
+  journal={arXiv preprint arXiv:2503.20047},
+  year={2025}
 }
 
 @article{ates2025dcformer,
