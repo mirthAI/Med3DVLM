@@ -194,4 +194,12 @@ Kindly cite the following papers if you use our code.
   pages={24261--24272},
   year={2021}
 }
+
+@inproceedings{zhai2023sigmoid,
+  title={Sigmoid loss for language image pre-training},
+  author={Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={11975--11986},
+  year={2023}
+}
 ```
