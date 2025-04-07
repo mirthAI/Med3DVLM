@@ -98,7 +98,7 @@ python utls/rename_csv.py --csv_path path_to_csv_file
 To train the contrastive learning model, use the following command:
 
 ```bash
-deepseed scripts/train_clip.sh
+sh scripts/train_clip.sh
 ```
 
 You can use our pre-trained DCFormer-SigLIP model. The pre-trained model weights need to be placed in the `output` folder.
@@ -107,20 +107,20 @@ You can use our pre-trained DCFormer-SigLIP model. The pre-trained model weights
 To pre-train the VLM model, use the following command:
 
 ```bash
-deepseed scripts/pretrain_mm_projector.sh
+sh scripts/pretrain_mm_projector.sh
 ```
 
 ### VQA Fine-tuning
 To fine-tune the VLM model, use the following command:
 
 ```bash
-deepseed scripts/vqa_finetune.sh
+sh scripts/vqa_finetune.sh
 ```
 
 To merge the LoRA weights, use the following command:
 
 ```bash
-deepseed scripts/merge_lora_weights_and_save_hf_model.sh
+sh scripts/merge_lora_weights_and_save_hf_model.sh
 ```
 
 The model will be saved in the `models` folder.
@@ -132,21 +132,21 @@ To evaluate the model, you need finish the data preparation first.
 ### Image-Text Retrieval
 To evaluate the image-text retrieval task, use the following command:
 ```bash
-deepseed scripts/eval_clip.sh
+sh scripts/eval_clip.sh
 ```
 
 ### Report Generation
 To evaluate the report generation task, use the following command:
 
 ```bash
-deepseed scripts/eval_caption.sh
+sh scripts/eval_caption.sh
 ```
 
 ### VQA Evaluation
 To evaluate the VQA task, use the following command:
 
 ```bash
-deepseed scripts/eval_vqa.sh
+sh scripts/eval_vqa.sh
 ```
 
 ## Demo
