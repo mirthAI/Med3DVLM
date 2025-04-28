@@ -116,7 +116,7 @@ sh scripts/pretrain_mm_projector.sh
 To fine-tune the VLM model, use the following command:
 
 ```bash
-sh scripts/vqa_finetune.sh
+sh scripts/finetune_lora.sh
 ```
 
 To merge the LoRA weights, use the following command:
