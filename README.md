@@ -4,7 +4,7 @@
 
 Official PyTorch implementation of: 
 
-[Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis](https://arxiv.org/abs/2503.00745)
+[Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis](https://arxiv.org/abs/2503.20047)
 
 ![Med3DVLM Architecture](docs/pipeline.png)
 
