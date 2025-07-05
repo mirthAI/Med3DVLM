@@ -373,8 +373,8 @@ class VQAYNDataset(Dataset):
                     "answer_choice": data["Answer Choice"],
                     "question_type": data["Question Type"],
                 }
-                if self.args.seg_enable:
-                    ret.update({"seg": torch.zeros_like(image)})
+                # if self.args.seg_enable:
+                #     ret.update({"seg": torch.zeros_like(image)})
 
                 return ret
 
