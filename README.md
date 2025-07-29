@@ -89,25 +89,28 @@ sh scripts/flare/eval_vqa.sh
 ### Report Generation
 ```json
 {
-    "green_avg": 0.418448,
-    "lymphatic system": 0.428414,
-    "liver": 0.238982,
-    "mediastinum": 0.25886,
-    "respiratory tract": 0.304454,
-    "abdominal cavity and peritoneum": 0.349413,
-    "blood vessels": 0.042941,
-    "esophagus": 0.268233,
-    "musculoskeletal system": 0.230568,
-    "endocrine system": 0.123103,
-    "lungs and pleura": 0.117805,
-    "heart": 0.283847,
-    "gastrointestinal tract": 0.092696,
-    "kidneys": 0.146798,
-    "pancreas": 0.321114,
-    "biliary system": 0.280764,
-    "spleen": 0.369824,
-    "breast tissue": 0.0,
-    "diaphragm": 0.0
+    "green": 0.41844785827867276,
+    "region_means": {
+        "liver": 0.2775261904761905,
+        "biliary system": 0.5122192273135671,
+        "spleen": 0.6345744680851063,
+        "pancreas": 0.5835138136887407,
+        "kidneys": 0.24700117889773066,
+        "endocrine system": 0.28041362530413627,
+        "lymphatic system": 0.5643418467583496,
+        "gastrointestinal tract": 0.11991951710261568,
+        "abdominal cavity and peritoneum": 0.3961981566820276,
+        "blood vessels": 0.12614555256064688,
+        "musculoskeletal system": 0.53087899543379,
+        "lungs and pleura": 0.2728758675187248,
+        "respiratory tract": 0.7794486215538847,
+        "heart": 0.6545246277205033,
+        "mediastinum": 0.6117396593673964,
+        "esophagus": 0.6408163265306124,
+        "urinary system": 0.0,
+        "breast tissue": 0.0,
+        "diaphragm": 0.0
+    }
 }
 ```
 
