@@ -1,10 +1,10 @@
 # Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis
 
-<font size=3><div align='center' > <a href=https://arxiv.org/abs/2503.20047/>**Paper**</a> | [**Datasets**](#datasets) | [**Model**](#model) | [**Training**](#training) | [**Evaluation**](#evaluation) | [**Demo**](#demo)</div></font>
+<font size=3><div align='center' > <a href=https://ieeexplore.ieee.org/document/11145341/>**Paper**</a> | [**Datasets**](#datasets) | [**Model**](#model) | [**Training**](#training) | [**Evaluation**](#evaluation) | [**Demo**](#demo)</div></font>
 
 Official PyTorch implementation of: 
 
-[Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis]([https://arxiv.org/abs/2503.20047](https://ieeexplore.ieee.org/document/11145341))
+[Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis](https://ieeexplore.ieee.org/document/11145341)
 
 ![Med3DVLM Architecture](docs/pipeline.png)
 
