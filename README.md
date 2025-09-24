@@ -25,7 +25,7 @@ cd Med3DVLM
 ```
 To install the required packages, you can use the following command:
 ```bash
-conda create -n Med3DVLM -f env.yaml
+conda env create -f env.yaml -n Med3DVLM
 conda activate Med3DVLM
 ```
 or
